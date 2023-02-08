@@ -52,6 +52,7 @@
     text-align: right;
     align-items: center;
     padding-left: 150px;
+    margin-bottom: 130px;
 }
 
 .section {
@@ -79,4 +80,35 @@
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+}
+
+/* section my plans */
+
+.my-plan {
+    padding-left: 150px;
+    
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 55px;
+    
+}
+
+.my-plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plan-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.my-plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
