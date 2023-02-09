@@ -38,12 +38,12 @@
     width: 165px;
     height: 64px;
     padding: 20px 25px;
-    color: #FFFFFF;
-    background-color: #F15B22;
-    ;
     font-size: 20px;
     border-radius: 5px;
     margin-right: 50px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+
 }
 
 /* section-my failures styles */
@@ -86,18 +86,19 @@
 
 .my-plan {
     padding-left: 150px;
-    
+    margin-bottom: 130px;
 }
 
 .section-title {
     text-align: center;
     padding-bottom: 55px;
-    
+
 }
 
 .my-plan-container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .my-plan-sub-title {
@@ -111,4 +112,100 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* section-contact us styles */
+
+.contact-us-container {
+    width: 1140px;
+    height: 300px;
+    background-image: url(../images/watch.png), linear-gradient(rgba(255, 62, 8, 1), rgba(232, 110, 11, 0.01));
+    background-blend-mode: overlay;
+    margin-left: 150px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+
+}
+
+.contact-us {
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.btn-contact {
+    width: 165px;
+    height: 64px;
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+}
+/* footer styles */
+.footer-container{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    background-color: #151414;
+}
+.future{
+    width: 480px;
+    height: 310px;
+    padding: 130px 230px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 15px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.mail{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.phone{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+
+}
+.future a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+/* sibscribe styles */
+.subscribe{
+    width: 325px;
+    height: 200px;
+    padding-right: 200px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.subscribe input{
+    margin-bottom: 15px;
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 5px;
 }
